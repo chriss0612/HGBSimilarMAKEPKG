@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Similar
+Comment=Logic similator from Hagenberg
+Exec=/opt/Similar/Similar.sh
+Terminal=false
+Type=Application
