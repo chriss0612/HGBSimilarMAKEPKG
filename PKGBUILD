@@ -15,6 +15,7 @@ package() {
     mkdir -p ${pkgdir}/usr/share/applications
     cp ${srcdir}/Similar.desktop ${pkgdir}/usr/share/applications
     
-    mkdir -p ${pkgdir}/usr/share/pixmaps/Similar.png
-    convert ${srcdir}/favicon.ico ${pkgdir}/usr/share/pixmaps/Similar.png
+    mkdir -p ${pkgdir}/usr/share/pixmaps
+    convert ${srcdir}/favicon.ico Similar.png
+    cp Similar-0.png ${pkgdir}/usr/share/pixmaps/Similar.png
 }
